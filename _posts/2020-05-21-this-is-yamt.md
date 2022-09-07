@@ -1,9 +1,9 @@
 ---
-title: This is YAMT!
+title: This is Tolza!
 layout: post
 categories: [Typography, Markdown, Tips]
 image: /assets/img/logo.jpg
-description: "Welcome to YAMT - Yet Another Minimal Theme."
+description: "Welcome to Tolza"
 ---
 
 Welcome to YAMT - Yet Another Minimal Theme. YAMT is a minimal Jekyll theme focused on simplicity and ease-of-use. It has great modularity, allowing you to easily decide what you actually want on your website.
@@ -22,8 +22,8 @@ Welcome to YAMT - Yet Another Minimal Theme. YAMT is a minimal Jekyll theme focu
 - [RSS](https://github.com/jekyll/jekyll-feed) support.
 - Beautiful [Syntax Highlight](https://yamt.netlify.app/2020/05/19/special-formatting.html#syntax-highlight). Write some code and show it in a graceful way.
 
-## Installation
+## Установка
 [Read here](https://github.com/PandaSekh/Jekyll-YAMT#installation).
 
-## Customization
+## Кастомизация
 [Read here](https://github.com/PandaSekh/Jekyll-YAMT#customize).
