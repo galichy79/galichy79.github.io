@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Thank you!
+title: Спасибо!
 ---
 
 
-## THANK YOU!
+## Спасибо!
 <div class = "success">
-    <p>Your form submission has been received. I will get back to you shortly.</p>
-    <a href="/">Go back to the homepage.</a>
+    <p>Ваше представление формы было получено. Мы свяжемся с вами в ближайшее время.</p>
+    <a href="/">На домашнюю.</a>
 </div>

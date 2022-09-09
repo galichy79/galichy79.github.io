@@ -3,9 +3,9 @@
 
 
 social:
-  - {icon: 'github', type: "brand", link: 'https://www.github.com/pandasekh'}
-  - {icon: 'twitter', type: "brand", link: 'https://twitter.com/PandaSekh'}
-  - {icon: 'linkedin', type: "brand", link: 'https://www.linkedin.com/in/alessio-franceschi/'}
+  - {icon: 'github', type: "brand", link: 'https://www.github.com/galichy79'}
+  - {icon: 'twitter', type: "brand", link: 'https://twitter.com/###'}
+  - {icon: 'linkedin', type: "brand", link: 'https://www.linkedin.com/in/yuriy-galych-428068182/'}
   
-  - {icon: 'envelope', type: "solid", link: 'mailto:alessiofranceschi2@gmail.com'}
+  - {icon: 'envelope', type: "solid", link: 'mailto:galichy79@gmail.com'}
   - {icon: 'rss', type: "solid", link: "/feed.xml"}

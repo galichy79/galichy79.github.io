@@ -1,12 +1,12 @@
 ---
-title: This is YAMT!
+title: Привет, братаны!
 layout: post
 categories: [Typography, Markdown, Tips]
 image: /assets/img/logo.jpg
-description: "Welcome to YAMT"
+description: 
 ---
 
-Welcome to YAMT - Yet Another Minimal Theme. YAMT is a minimal Jekyll theme focused on simplicity and ease-of-use. It has great modularity, allowing you to easily decide what you actually want on your website.
+Hi all.
 
 * hello
 {:toc}
@@ -21,9 +21,6 @@ Welcome to YAMT - Yet Another Minimal Theme. YAMT is a minimal Jekyll theme focu
 - [MathJAX](https://www.mathjax.org/) and [LaTeX](https://www.latex-project.org/) optional support. Write beautiful math!
 - [RSS](https://github.com/jekyll/jekyll-feed) support.
 - Beautiful [Syntax Highlight](https://yamt.netlify.app/2020/05/19/special-formatting.html#syntax-highlight). Write some code and show it in a graceful way.
-
-## Установка
-[Read here](https://github.com/PandaSekh/Jekyll-YAMT#installation).
 
 ## Кастомизация
 [Read here](https://github.com/PandaSekh/Jekyll-YAMT#customize).
