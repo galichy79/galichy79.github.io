@@ -3,5 +3,5 @@ pages:
   
   - {name: 'Прайс', url: 'price.html'}
   - {name: 'Портфолио', url: 'portfolio.html'}
-  - {name: 'Архив', url: 'archive.html'}
+  - {name: 'Статьи', url: 'archive.html'}
   - {name: 'Контакты', url: 'contact.html'}
