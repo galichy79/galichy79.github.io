@@ -17,3 +17,6 @@ title: Портфолио
 
 **[Омела](https://omela.group/)**  
 
+**[Fast Landing](https://zzolza.github.io//)**
+
+
