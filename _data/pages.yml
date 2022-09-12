@@ -1,7 +1,7 @@
 pages:
-  - {name: 'О нас', url: 'about.html'}
+  - {name: 'Про нас', url: 'about.html'}
   
   - {name: 'Прайс', url: 'price.html'}
-  - {name: 'Портфолио', url: 'portfolio.html'}
-  - {name: 'Статьи', url: 'archive.html'}
-  - {name: 'Контакты', url: 'contact.html'}
+  - {name: 'Портфоліо', url: 'portfolio.html'}
+  - {name: 'Статті', url: 'archive.html'}
+  - {name: 'Контакти', url: 'contact.html'}
