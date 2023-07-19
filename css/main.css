@@ -1,22 +1,9 @@
-html {
-  font-size: 18px;
-}
-
 body {
-  background-color: rgba(237, 225, 56, 0.22);
-  height: 100%;
+  background-color: rgb(253, 246, 206);
 }
 
 a {
-  text-decoration: none;
-}
-
-html, body {
-  height: 100%;
-}
-
-.main {
-  flex: 1;
+  text-align: none;
 }
 
 /*# sourceMappingURL=main.css.map */
