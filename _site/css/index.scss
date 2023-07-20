@@ -1,9 +1,10 @@
 @import 'variables.scss';
 
 body {
-  background-color: $primary-color;
+  background-color: $background-color;
 }
 
 a {
+  color: $link-color;
   text-decoration: none;
 }
