@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/menus-min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <link rel="stylesheet" href="/css/main.css" />
+  <title>Yu Blog</title>
+  <style>
+    .custom-restricted-width {
+      /* To limit the menu width to the content of the menu: */
+      display: inline-block;
+      /* Or set the width explicitly: */
+      /* width: 10em; */
+    }
+
+    /* Customization to limit height of the menu */
+    .custom-restricted {
+      height: 160px;
+      width: 150px;
+      border: 1px solid gray;
+      border-radius: 4px;
+    }
+
+    #btnScrollToTop {
+      display: flex;
+      justify-content: center;
+     
+
+
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #e62739;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+      color: #fff;
+      outline: none;
+      cursor: pointer;
+      border: none;
+    }
+
+    #btnScrollToTop:active {
+      background: #cc2333;
+    }
+  </style>
+</head>
+
+
+<body>
+  <header>
+    
+<nav>
+  <div class="pure-menu pure-menu-horizontal">
+    <a href="/index.html" class="pure-menu-heading pure-menu-link">GAL</a>
+    <ul class="pure-menu-list">
+      <li class="pure-menu-item">
+        <a href="/news.html" class="pure-menu-link">News</a>
+      </li>
+      <li class="pure-menu-item">
+        <a href="/home.html" class="pure-menu-link">Home</a>
+      </li>
+      <li class="pure-menu-item">
+        <a href="/finance.html" class="pure-menu-link">Finance</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="container">
+    <div class="row">
+        <div class="twelve columns">
+            <p>Менеджер паролей <a href="https://www.passwordstore.org/">pass</a> позволит вам сохранить много денег,
+                которые вы могли потратить на <a href="https://www.roboform.com/">RoboForm</a> или <a
+                    href="https://www.lastpass.com/">LastPass</a>. Видеоинструкция <a
+                    href="https://www.youtube.com/watch?v=NM1eYYyk2WE&t=543s">тут.</a></p>
+
+            <h2>Вот некоторые команды</h2>
+
+            <p>Генерируем ключи шифрования</p>
+            <pre style="font-size: 18px;">
+                <mark><code>gpg --full-gen-key</code></mark> - Будут сгенерированы публичный и приватный ключи шифрования.
+            </pre>
+
+            <pre style="font-size: 18px;">
+                <mark> <code >gpg -k</code></mark> - Отобразить публичные ключи.
+          
+            </pre>
+            <pre style="font-size: 18px;">
+                <mark><code>gpg -K</code></mark>  - Отобразить приватные ключи.
+            </pre>
+            </pre>
+            <pre style="font-size: 18px;">
+                <mark><code>pass init uzagal@proton.me</code></mark>  - Инициализируем хранилище паролей, указав ключ, которым будут шифроваться наши пароли.
+            </pre>
+            <pre style="font-size: 18px;">
+                <mark><code>pass insert youtube.com</code></mark>  - Добавляем пароль сайта youtube.com в хранилище паролей.
+            </pre>
+            <pre style="font-size: 18px;">
+                <mark><code>pass</code></mark>  - Отобразить записи в хранилище паролей.
+            </pre>
+            <pre style="font-size: 18px;">
+                <mark><code>pass youtube.com</code></mark>  - Расшифровать и показать пароль.
+            </pre>
+            <pre style="font-size: 18px;">
+                <mark><code>gpg --export -a uzagal@proton.me > pub_uzagal.gpg</code></mark>  - Экспортировать публичный ключ и записать его в файл pub_uzagal.gpg.
+            </pre>
+            <pre style="font-size: 18px;">
+                <mark><code>gpg --export-secret-key -a uzagal@proton.me > sec_uzagal.gpg</code></mark>  - Экспортировать приватный ключ и записать его в файл sec_uzagal.gpg.
+            </pre>
+            <pre style="font-size: 18px;">
+                <mark><code>gpg --delete-secret-keys uzagal@proton.me </code></mark>  - Удалить приватный ключ из gpg.
+            </pre>
+            <pre style="font-size: 18px;">
+                <mark><code>gpg --delete-keys uzagal@proton.me </code></mark>  - Удалить публичный ключ из gpg.
+            </pre>
+            <pre style="font-size: 18px;">
+                <mark><code>gpg --import pub_uzagal.gpg </code></mark>  - Импортировать публичный ключ в gpg.
+            </pre>
+            <pre style="font-size: 18px;">
+                <mark><code>gpg --import sec_uzagal.gpg </code></mark>  - Импортировать приватный ключ в gpg.
+            </pre>
+            <pre style="font-size: 18px;">
+                <mark><code>pass insert facebook -m </code></mark>  - Добавить записи в хранилище паролей режиме мультилайн.
+            </pre>
+            <pre style="font-size: 18px;">
+                <mark><code>pass rm facebook </code></mark>  - Улалить запись с паролем для facebook.com.
+            </pre>
+            <pre style="font-size: 18px;">
+                <mark><code>pass -c facebook </code></mark>  - Копирует пароль для facebook.com в буфер обмена на 45 сек. Через 45 секунд пароль удаляется из буфера обмена.
+            </pre>
+
+        </div>
+    </div>
+</div>
+      <button id="btnScrollToTop">
+        <i class="material-icons" style="position: absolute; top: 20%">arrow_upward</i>
+      </button>
+    </div>
+
+  </div>
+
+
+
+  
+  <footer>
+   
+  </footer>
+
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script> -->
+
+  <script>
+    const btnScrollToTop = document.querySelector("#btnScrollToTop");
+
+    btnScrollToTop.addEventListener("click", function () {
+      window.scrollTo(0, 0);
+
+      // window.scrollTo({
+      //   top: 0,
+      //   left: 0,
+      //   behavior: "smooth"
+      // });
+
+      // $("html, body").animate({ scrollTop: 0 }, "slow" );
+
+    });
+  </script>
+
+</body>
+
+</html>

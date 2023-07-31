@@ -11,8 +11,15 @@ a {
 
 p {
   padding-left: 3px;
+  font-size: 18px;
+
 }
 
 .green {
   background-color: green;
+}
+
+code {
+  z-index: 6;
+  background: rgb(163, 21, 21);
 }
