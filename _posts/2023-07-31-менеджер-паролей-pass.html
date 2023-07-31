@@ -11,57 +11,56 @@ title: "Менеджер паролів Pass"
 <h2>Вот некоторые команды</h2>
 
 <p>Генерируем ключи шифрования</p>
-<pre style="font-size: 18px;">
-                <mark><code>gpg --full-gen-key</code></mark> - Будут сгенерированы публичный и приватный ключи шифрования.
-            </pre>
 
-<pre style="font-size: 18px;">
-                <mark> <code >gpg -k</code></mark> - Отобразить публичные ключи.
+                <mark><code>gpg --full-gen-key</code></mark> - Будут сгенерированы публичный и приватный ключи шифрования. <br>
+           
+
+
+                <mark> <code >gpg -k</code></mark> - Отобразить публичные ключи. <br>
           
-            </pre>
-<pre style="font-size: 18px;">
-                <mark><code>gpg -K</code></mark>  - Отобразить приватные ключи.
-            </pre>
-</pre>
-<pre style="font-size: 18px;">
-                <mark><code>pass init uzagal@proton.me</code></mark>  - Инициализируем хранилище паролей, указав ключ, которым будут шифроваться наши пароли.
-            </pre>
-<pre style="font-size: 18px;">
-                <mark><code>pass insert youtube.com</code></mark>  - Добавляем пароль сайта youtube.com в хранилище паролей.
-            </pre>
-<pre style="font-size: 18px;">
-                <mark><code>pass</code></mark>  - Отобразить записи в хранилище паролей.
-            </pre>
-<pre style="font-size: 18px;">
-                <mark><code>pass youtube.com</code></mark>  - Расшифровать и показать пароль.
-            </pre>
-<pre style="font-size: 18px;">
-                <mark><code>gpg --export -a uzagal@proton.me > pub_uzagal.gpg</code></mark>  - Экспортировать публичный ключ и записать его в файл pub_uzagal.gpg.
-            </pre>
-<pre style="font-size: 18px;">
-                <mark><code>gpg --export-secret-key -a uzagal@proton.me > sec_uzagal.gpg</code></mark>  - Экспортировать приватный ключ и записать его в файл sec_uzagal.gpg.
-            </pre>
-<pre style="font-size: 18px;">
-                <mark><code>gpg --delete-secret-keys uzagal@proton.me </code></mark>  - Удалить приватный ключ из gpg.
-            </pre>
-<pre style="font-size: 18px;">
-                <mark><code>gpg --delete-keys uzagal@proton.me </code></mark>  - Удалить публичный ключ из gpg.
-            </pre>
-<pre style="font-size: 18px;">
-                <mark><code>gpg --import pub_uzagal.gpg </code></mark>  - Импортировать публичный ключ в gpg.
-            </pre>
-<pre style="font-size: 18px;">
-                <mark><code>gpg --import sec_uzagal.gpg </code></mark>  - Импортировать приватный ключ в gpg.
-            </pre>
-<pre style="font-size: 18px;">
-                <mark><code>pass insert facebook -m </code></mark>  - Добавить записи в хранилище паролей режиме мультилайн.
-            </pre>
-<pre style="font-size: 18px;">
-                <mark><code>pass rm facebook </code></mark>  - Улалить запись с паролем для facebook.com.
-            </pre>
-<pre style="font-size: 18px;">
-                <mark><code>pass -c facebook </code></mark>  - Копирует пароль для facebook.com в буфер обмена на 45 сек. Через 45 секунд пароль удаляется из буфера обмена.
-            </pre>
+           
+
+                <mark><code>gpg -K</code></mark>  - Отобразить приватные ключи. <br>
+            
+
+
+                <mark><code>pass init uzagal@proton.me</code></mark>  - Инициализируем хранилище паролей, указав ключ, которым будут шифроваться наши пароли. <br>
+           
+
+                <mark><code>pass insert youtube.com</code></mark>  - Добавляем пароль сайта youtube.com в хранилище паролей. <br>
+           
+
+                <mark><code>pass</code></mark>  - Отобразить записи в хранилище паролей. <br>
+          
+
+                <mark><code>pass youtube.com</code></mark>  - Расшифровать и показать пароль. <br>
+          
+
+                <mark><code>gpg --export -a uzagal@proton.me > pub_uzagal.gpg</code></mark>  - Экспортировать публичный ключ и записать его в файл pub_uzagal.gpg. <br>
+         
+
+                <mark><code>gpg --export-secret-key -a uzagal@proton.me > sec_uzagal.gpg</code></mark>  - Экспортировать приватный ключ и записать его в файл sec_uzagal.gpg. <br>
+           
+
+                <mark><code>gpg --delete-secret-keys uzagal@proton.me </code></mark>  - Удалить приватный ключ из gpg. <br>
+          
+
+                <mark><code>gpg --delete-keys uzagal@proton.me </code></mark>  - Удалить публичный ключ из gpg. <br>
+         
+
+                <mark><code>gpg --import pub_uzagal.gpg </code></mark>  - Импортировать публичный ключ в gpg. <br>
+           
+
+                <mark><code>gpg --import sec_uzagal.gpg </code></mark>  - Импортировать приватный ключ в gpg. <br>
+           
+
+                <mark><code>pass insert facebook -m </code></mark>  - Добавить записи в хранилище паролей режиме мультилайн. <br>
+           
+
+          
+
+                <mark><code>pass -c facebook </code></mark>  - Копирует пароль для facebook.com в буфер обмена на 45 сек. Через 45 секунд пароль удаляется из буфера обмена. <br>
+          
  
 
 </div>
