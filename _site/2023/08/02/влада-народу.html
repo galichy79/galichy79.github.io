@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/menus-min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <link rel="stylesheet" href="/css/main.css" />
+  <title>Yu Blog</title>
+  <style>
+    .custom-restricted-width {
+      /* To limit the menu width to the content of the menu: */
+      display: inline-block;
+      /* Or set the width explicitly: */
+      /* width: 10em; */
+    }
+
+    /* Customization to limit height of the menu */
+    .custom-restricted {
+      height: 160px;
+      width: 150px;
+      border: 1px solid gray;
+      border-radius: 4px;
+    }
+
+    #btnScrollToTop {
+      display: flex;
+      justify-content: center;
+     
+
+
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: #e62739;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+      color: #fff;
+      outline: none;
+      cursor: pointer;
+      border: none;
+    }
+
+    #btnScrollToTop:active {
+      background: #cc2333;
+    }
+  </style>
+</head>
+
+
+<body>
+  <header>
+    
+<nav>
+  <div class="pure-menu pure-menu-horizontal">
+    <a href="/index.html" class="pure-menu-heading pure-menu-link">GAL</a>
+    <ul class="pure-menu-list">
+      <li class="pure-menu-item">
+        <a href="/news.html" class="pure-menu-link">News</a>
+      </li>
+      <li class="pure-menu-item">
+        <a href="/home.html" class="pure-menu-link">Home</a>
+      </li>
+      <li class="pure-menu-item">
+        <a href="/finance.html" class="pure-menu-link">Finance</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+
+    <h2>Про владу народу</h2> <br>
+    <p>
+        У якій статті Конституції України написано, що громадянин може здійснювати владні повноваження безпосередньо? <br>
+      
+
+        В Конституції України немає окремої статті, яка б прямо зазначала, що громадянин може здійснювати владні
+        повноваження безпосередньо. Проте, загальна ідея про безпосереднє здійснення владних повноважень народом в
+        Конституції України втілена в ряді статей, зокрема: <br>
+
+        <mark>Стаття 5: "Народ є єдиним джерелом влади в Україні. Він здійснює її безпосередньо </mark>і через органи державної влади
+        та органи місцевого самоврядування." <br>
+
+        Стаття 38: "Громадянам України гарантується право безпосередньо брати участь у управлінні державними справами
+        через народні обрані представницькі органи та державні посадовців." <br>
+
+        <mark>Стаття 39: "Кожен має право брати участь у виконанні правосуддя та у забезпеченні правопорядку."</mark> <br>
+
+        <mark>Стаття 40: "Кожен має право на свободу думки та слова, право на інформацію</mark>, право на свободу зборів, право на
+        мирні зібрання і мітинги без попередньої заявки." <br>
+
+        Стаття 41: "Кожен має право на свободу об'єднання у громадські організації для здійснення і захисту своїх прав і
+        свобод і задоволення своїх соціальних, економічних, творчих і інших інтересів." <br>
+
+        Таким чином, <mark>Конституція України передбачає, що народ</mark>, який складається з громадян, <mark>має право здійснювати владні
+        повноваження безпосередньо</mark> або через свої обрані представницькі органи та державних посадовців. <br>
+    </p>
+</div>
+      <button id="btnScrollToTop">
+        <i class="material-icons" style="position: absolute; top: 20%">arrow_upward</i>
+      </button>
+    </div>
+
+  </div>
+
+
+
+  
+  <footer>
+   
+  </footer>
+
+
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"></script> -->
+
+  <script>
+    const btnScrollToTop = document.querySelector("#btnScrollToTop");
+
+    btnScrollToTop.addEventListener("click", function () {
+      window.scrollTo(0, 0);
+
+      // window.scrollTo({
+      //   top: 0,
+      //   left: 0,
+      //   behavior: "smooth"
+      // });
+
+      // $("html, body").animate({ scrollTop: 0 }, "slow" );
+
+    });
+  </script>
+
+</body>
+
+</html>
