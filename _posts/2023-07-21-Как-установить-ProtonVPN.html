@@ -7,41 +7,21 @@ title: "Как установить Proton VPN на Linux Mint"
   <div class="row">
     <div class="twelve columns">
       <h2>Как установить Ptoton VPN на линукс минт</h2>
-      <h3><a href="https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.3_all.deb">Download the Proton VPN DEB package</a></h3>
+      <h3><a href="https://protonvpn.com/support/linux-vpn-tool/">Инструкция тут.</a></h3>
+      
 
-      <h3>Install the Proton VPN repository</h3>
+      <h3>Некоторые команды</h3>
+      <mark><code>protonvpn-cli login [Proton VPN username]</code></mark> - Залогиниться. <br>
 
-      sudo apt-get install {/path/to/}protonvpn-stable-release_1.0.3_all.deb <br>
+      <mark><code>protonvpn-cli c</code></mark> - Connect. <br>
 
-      For example: <br>
-      ```
-      sudo apt-get install ~/Downloads/protonvpn-stable-release_1.0.3_all.deb
-      ``` <br>
-      ```
-      sudo apt-get update
-      ``` <br>
-      ```
-      sudo apt-get install protonvpn-cli
-      ``` <br>
-        Установлено
+      <mark><code>protonvpn-cli s</code></mark> - Status. <br>
 
-      <h2>How to use the official Linux CLI</h2>
+      <mark><code>protonvpn-cli d</code></mark> - Disconnect. <br>
 
-      ```
-      protonvpn-cli logout
-      ``` <br>
 
-      ```
-      protonvpn-cli login [Proton VPN username]
-      ``` <br>
-      For example:
-      ```
-      protonvpn-cli login uzagal@proton.me
-      ``` <br>
-      ```
-      protonvpn-cli c
-      ```
-      <h4>Proton VPN не работает. Выдает какую-то ошибку.</h4>
+
+      
       <h2>Годный VPN</h2>
       <h3><a href="https://freevpnplanet.com/">https://freevpnplanet.com/</a></h3><br>
       Устанавливается как расширение для браузера. Регистрироваться не нужно. <br>
